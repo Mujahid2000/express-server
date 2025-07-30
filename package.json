@@ -1,11 +1,10 @@
 {
   "name": "express-server",
   "version": "1.0.0",
-  "main": "server.js",
+  "main": "src/server.js",
   "scripts": {
-    "build": "node server.js",
-    "start": "node server.js",
-    "dev": "node --watch server.js",
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
     "test": "echo \"No tests yet\""
   },
   "keywords": [],
