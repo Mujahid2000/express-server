@@ -5,7 +5,7 @@ const path = require('path');
 const dotenv = require('dotenv');
 dotenv.config();
 const app = express();
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 4000;
 
 const dbPath = path.join(__dirname, 'dua_main.sqlite');
 const db = new sqlite3.Database(dbPath, (err) => {
